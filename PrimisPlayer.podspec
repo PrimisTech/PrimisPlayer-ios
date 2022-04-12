@@ -7,11 +7,13 @@ Pod::Spec.new do |s|
                          DESC
 
     s.homepage = 'https://github.com/PrimisTech/PrimisPlayer-ios'
-    # s.license = "MIT"
+    s.license = 'MIT'
     s.author = { 'Primis' => 'mobile@primis.tech' }
     # s.source = { :git => 'https://github.com/PrimisTech/PrimisPlayer-ios.git', :tag => s.version.to_s }
     s.source = { :http => 'https://github.com/PrimisTech/PrimisPlayer-ios/releases/download/1.6.0/PrimisPlayer.xcframework.zip' }
 
+    s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
+    s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
     s.ios.deployment_target = '10.0'
     s.frameworks = 'WebKit', 'UIKit'
 
