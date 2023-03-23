@@ -1,0 +1,12 @@
+{
+  "data" : [
+    {
+      "filename" : "primis_webview_example.html",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
