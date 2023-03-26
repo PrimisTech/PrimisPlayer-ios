@@ -4,8 +4,7 @@
 PrimisPlayer iOS SDK allows publishers to integrate the Primis player into their iOS applications easily. The SDK is designed to work with various UI elements, such as WebView, ScrollView, TableView and CollectionView, making it versatile and easy to use.
 
 ## Installation
-To install PrimisPlayer iOS SDK, follow the instructions in [Primis product centre](https://docs.primis.tech/docs/sdk-for-ios)
-. The SDK includes a sample application demonstrating how to use PrimisPlayer with different UI elements.
+To install PrimisPlayer iOS SDK, follow the instructions in [Primis product centre](https://docs.primis.tech/docs/sdk-for-ios).
 
 ## Sample Application
 The PrimisPlayer iOS SDK repository includes a sample application demonstrating how to use the SDK with WebView, ScrollView, and TableView.
