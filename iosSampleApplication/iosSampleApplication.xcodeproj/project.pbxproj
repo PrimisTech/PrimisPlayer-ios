@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D537D6AC29D062FE009EB314 /* GoogleInteractiveMediaAds.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D537D6AA29D0627C009EB314 /* GoogleInteractiveMediaAds.xcframework */; };
+		D537D6AD29D062FE009EB314 /* GoogleInteractiveMediaAds.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D537D6AA29D0627C009EB314 /* GoogleInteractiveMediaAds.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D5A52A5E29C1E5A200865532 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A52A5D29C1E5A200865532 /* AppDelegate.swift */; };
 		D5A52A6029C1E5A200865532 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A52A5F29C1E5A200865532 /* SceneDelegate.swift */; };
 		D5A52A6529C1E5A200865532 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5A52A6329C1E5A200865532 /* Main.storyboard */; };
 		D5A52A6729C1E5A300865532 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5A52A6629C1E5A300865532 /* Assets.xcassets */; };
 		D5A52A6A29C1E5A300865532 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5A52A6829C1E5A300865532 /* LaunchScreen.storyboard */; };
 		D5A52A7629C1E61600865532 /* PrimisPlayer in Frameworks */ = {isa = PBXBuildFile; productRef = D5A52A7529C1E61600865532 /* PrimisPlayer */; };
-		D5A52A7729C1E6B700865532 /* GoogleInteractiveMediaAds.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A52A7229C1E5C400865532 /* GoogleInteractiveMediaAds.xcframework */; };
-		D5A52A7829C1E6B700865532 /* GoogleInteractiveMediaAds.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D5A52A7229C1E5C400865532 /* GoogleInteractiveMediaAds.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D5A52A7D29C312FD00865532 /* ScrollViewSampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A52A7C29C312FD00865532 /* ScrollViewSampleViewController.swift */; };
 		D5A52A7F29C315D900865532 /* TableViewSampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A52A7E29C315D900865532 /* TableViewSampleViewController.swift */; };
 		D5A52A8129C3166200865532 /* PlayerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A52A8029C3166200865532 /* PlayerTableViewCell.swift */; };
@@ -30,7 +30,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				D5A52A7829C1E6B700865532 /* GoogleInteractiveMediaAds.xcframework in Embed Frameworks */,
+				D537D6AD29D062FE009EB314 /* GoogleInteractiveMediaAds.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -38,6 +38,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D537D6AA29D0627C009EB314 /* GoogleInteractiveMediaAds.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GoogleInteractiveMediaAds.xcframework; path = ../../../../Downloads/GoogleInteractiveMediaAds.xcframework; sourceTree = "<group>"; };
 		D5A52A5A29C1E5A200865532 /* iosSampleApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosSampleApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5A52A5D29C1E5A200865532 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D5A52A5F29C1E5A200865532 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,7 +46,6 @@
 		D5A52A6629C1E5A300865532 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5A52A6929C1E5A300865532 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D5A52A6B29C1E5A300865532 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D5A52A7229C1E5C400865532 /* GoogleInteractiveMediaAds.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GoogleInteractiveMediaAds.xcframework; path = ../../../Downloads/GoogleInteractiveMediaAds.xcframework; sourceTree = "<group>"; };
 		D5A52A7C29C312FD00865532 /* ScrollViewSampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewSampleViewController.swift; sourceTree = "<group>"; };
 		D5A52A7E29C315D900865532 /* TableViewSampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewSampleViewController.swift; sourceTree = "<group>"; };
 		D5A52A8029C3166200865532 /* PlayerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTableViewCell.swift; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5A52A7629C1E61600865532 /* PrimisPlayer in Frameworks */,
-				D5A52A7729C1E6B700865532 /* GoogleInteractiveMediaAds.xcframework in Frameworks */,
+				D537D6AC29D062FE009EB314 /* GoogleInteractiveMediaAds.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,7 +106,7 @@
 		D5A52A7129C1E5C400865532 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D5A52A7229C1E5C400865532 /* GoogleInteractiveMediaAds.xcframework */,
+				D537D6AA29D0627C009EB314 /* GoogleInteractiveMediaAds.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
