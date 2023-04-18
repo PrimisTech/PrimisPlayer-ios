@@ -10,28 +10,29 @@ import PrimisPlayerSdk
 
 class ScrollViewSampleViewController: UIViewController {
 
-    @IBOutlet weak var topTextView: UITextView!
-    @IBOutlet weak var bottomTextView: UITextView!
     @IBOutlet weak var playerContainer: UIView!
     
     private var player: PrimisPlayer?
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.createPrimisPlayer()
+    }
+    
+    func createPrimisPlayer() {
+        if self.player == nil {
+            player = PrimisPlayer()
+            player?.configure([
+                .placementId: "113298",
+                .containerView: playerContainer,
+                .debugLogActive: true ])
+            player?.add(to: self)
+        }
+    }
     
     deinit {
         player?.remove()
         player = nil
     }
     
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        
-        if player == nil {
-            player = PrimisPlayer()
-            player?.configure([
-                .placementId: "113298",
-                .containerView: playerContainer,
-                .flowParentView: self.view
-            ])
-            player?.add(to: self)
-        }
-    }
 }
