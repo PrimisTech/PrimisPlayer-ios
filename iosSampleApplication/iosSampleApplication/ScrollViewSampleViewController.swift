@@ -16,7 +16,8 @@ class ScrollViewSampleViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        self.createPrimisPlayer()
+        
+        createPrimisPlayer()
     }
     
     func createPrimisPlayer() {

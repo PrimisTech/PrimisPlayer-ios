@@ -47,7 +47,8 @@ class CollectionViewSampleViewController: UICollectionViewController, UICollecti
         
         if playerRows.contains(indexPath.row) {
             let size = player?.getPlayerSize() ?? .zero
-            return CGSize(width: flowLayout.itemSize.width, height: size.height)
+            
+            return CGSize(width: size.width , height: size.height)
         }
         
         return flowLayout.itemSize
