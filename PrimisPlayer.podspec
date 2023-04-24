@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name = 'PrimisPlayer'
-    s.version = '2.0.2'
+    s.version = '2.0.3'
     s.summary = 'Primis Player for iOS'
     s.description = <<-DESC
     Primis is a global Video Discovery platform that increases revenue for publishers by helping users discover high-quality video content.
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
     s.homepage = 'https://github.com/PrimisTech/PrimisPlayer-ios'
     s.license = { :type => 'MIT', :file => 'LICENSE.txt' }
     s.author = { 'Primis' => 'mobile@primis.tech' }
-    s.source = { :http => 'https://github.com/PrimisTech/PrimisPlayer-ios/releases/download/2.0.2/PrimisPlayer.xcframework.zip', :type => "zip" }
+    s.source = { :http => 'https://github.com/PrimisTech/PrimisPlayer-ios/releases/download/2.0.3/PrimisPlayer.xcframework.zip', :type => "zip" }
 
     s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
     s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
