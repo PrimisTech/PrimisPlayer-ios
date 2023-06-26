@@ -163,7 +163,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="KO8-hx-MMp">
-                                <rect key="frame" x="0.0" y="-2" width="430" height="932"/>
+                                <rect key="frame" x="0.0" y="-2" width="430" height="934"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xil-36-0QN">
@@ -242,7 +242,7 @@ Malesuada proin libero nunc consequat. Volutpat odio facilisis mauris sit. Risus
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o8p-nQ-Kx2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1929" y="777"/>
+            <point key="canvasLocation" x="1928.3720930232557" y="776.39484978540781"/>
         </scene>
         <!--TableView Sample-->
         <scene sceneID="1Pj-19-VQ5">
@@ -414,7 +414,7 @@ Malesuada proin libero nunc consequat. Volutpat odio facilisis mauris sit. Risus
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="hx9-9O-Ppz">
-                                <rect key="frame" x="0.0" y="-2" width="430" height="932"/>
+                                <rect key="frame" x="0.0" y="-2" width="430" height="934"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <wkWebView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LYw-A0-bgv">
@@ -437,7 +437,7 @@ Malesuada proin libero nunc consequat. Volutpat odio facilisis mauris sit. Risus
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hNA-AD-2Q7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4233" y="777"/>
+            <point key="canvasLocation" x="4232.0930232558139" y="776.39484978540781"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="IWe-D3-2BL">
