@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
     s.homepage = 'https://github.com/PrimisTech/PrimisPlayer-ios'
     s.license = { :type => 'MIT', :file => 'LICENSE.txt' }
     s.author = { 'Primis' => 'mobile@primis.tech' }
-    s.source = { :http => 'https://github.com/PrimisTech/PrimisPlayer-ios/releases/download/2.2.0/PrimisPlayerSdk.xcframework.zip', :type => "zip" }
+    s.source = { :http => 'https://github.com/PrimisTech/PrimisPlayer-ios/releases/download/2.2.1/PrimisPlayerSdk.xcframework.zip', :type => "zip" }
 
     s.ios.deployment_target = '12.0'
     s.frameworks = 'WebKit', 'UIKit'
